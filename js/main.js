@@ -1,5 +1,5 @@
-const panorama1 = new PANOLENS.ImagePanorama("../img/1.jpg");
-const panorama2 = new PANOLENS.ImagePanorama("../img/2.jpg");
+const panorama1 = new PANOLENS.ImagePanorama("/img/1.jpg");
+const panorama2 = new PANOLENS.ImagePanorama("/img/2.jpg");
 const imageContainer = document.querySelector(".panorama");
 
 const infospotPos = [new THREE.Vector3(3000, 0, 0), new THREE.Vector3(-2700, -500, -2500)];
